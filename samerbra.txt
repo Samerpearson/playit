@@ -1,1 +1,8 @@
 #my name is samerr
+#!/bin/bash
+
+for i in $(ls -1)
+do
+  echo "value is: $i"
+done
+
